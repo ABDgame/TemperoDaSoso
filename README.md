@@ -18,3 +18,5 @@ https://youtube.com/playlist?list=PLSJxovi1IyDH_fCHA6WFrcdENBhZc8qH1
 #
 # Carrinho JavaScript
 https://youtube.com/playlist?list=PLZxv3_yrHYHXinImv8ykMlvzJly-QJEWH
+#
+https://youtu.be/kmU7uX3ZHJc
