@@ -1,7 +1,7 @@
 # TemperoDaSoso
 Site responsivo de um restaurante de comida caseira, adaptado por MQJogos,
-desenvolvido com 41.8% de elementos HTML, 47.4% de variáveis CSS e 
-10.8% de práticas JavaScript.
+desenvolvido com 63.0% de elementos HTML, 34.5% de variáveis CSS e 
+2.5% de práticas JavaScript.
 #
 https://youtu.be/2F0PQEN1254
 
