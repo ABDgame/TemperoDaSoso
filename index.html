@@ -2,25 +2,28 @@
 <html lang= "pt-br"> 
 <head> 
   <meta charset="UTF-8"> 
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="X-UA-Compatible" contente="IE=edge">
   <meta name="viewport" content="width=device-width,initial-scale=1.0"> 
-  <meta name="title" content="Tempero Da Soso">
-  <meta name="description" content="Site de um restaurante desenvolvido por MQJogos">
+  <meta name="title" content="Doce Paladar">
+  <meta name="description" content="Site de uma padaria desenvolvido por MQJogos">
   
   <link rel="shortcut icon" href="./src/imagens/favicon.ico" type="image/x-icon">
   
-    
   <link rel="stylesheet" href="src/css/style.css"/>
-
   <link rel="preconnect" href="https://fonts.googleapis.com"> 
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
- 
-  <link rel="preload" as="image" href="./src/imagens/001.jpg">
-  <link rel="preload" as="image" href="./src/imagens/002.jpg">
-  <link rel="preload" as="image" href="./src/imagens/003.jpg">
-
-  <title> Tempero Da Soso </title>
+  <link rel="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet"> 
+  
+  <!-- 
+    - preload images - 02 - 05 - 2023
+  -->
+  <link rel="preload" as="image" href="./src/imagens/hero-banner.png" media="min-width(768px)">
+  <link rel="preload" as="image" href="./src/imagens/hero-banner-bg.png" media="min-width(768px)">
+  <link rel="preload" as="image" href="./src/imagens/hero-bg.jpg">
+  
+  <title> Doce Paladar </title>
+  
+  
 </head>
 <body id="top">
 
@@ -32,7 +35,7 @@
     <div class="container">
 
       <h1>
-        <a href="#" class="logo">TemperoDaSoso<span class="span">.</span></a>
+        <a href="#" class="logo">DocePaladar<span class="span">.</span></a>
       </h1>
 
       <nav class="navbar" data-navbar>
@@ -43,7 +46,7 @@
           </li>
 
           <li class="nav-item">
-            <a href="#about" class="navbar-link" data-nav-link>O Tempero</a>
+            <a href="#about" class="navbar-link" data-nav-link>O Paladar</a>
           </li>
 
           <li class="nav-item">
@@ -112,7 +115,7 @@
         - #HERO
       -->
 
-      <section class="hero" id="home" style="background-image: url('./src/imagens/0030-temperodasoso.jpg')">
+      <section class="hero" id="home" style="background-image: url('./src/imagens/hero-bg.jpg')">
         <div class="container">
 
           <div class="hero-content">
@@ -128,10 +131,10 @@
           </div>
 
           <figure class="hero-banner">
-            < img  src = "./src/imagens/hero-banner-bg.png"  width = "820"  height = "716"  alt = ""  aria-hidden = "true"
+            <img src="./assets/images/hero-banner-bg.png" width="820" height="716" alt="" aria-hidden="true"
               class="w-100 hero-img-bg">
 
-            <img src="./src/imagens/hero-banner.png" width="700" height="637" loading="lazy" alt="Burger"
+            <img src="./assets/images/hero-banner.png" width="700" height="637" loading="lazy" alt="Burger"
               class="w-100 hero-img">
           </figure>
 
@@ -1145,7 +1148,7 @@
 
         <div class="footer-brand">
 
-          <a href="" class="logo">TemperoDaSoso<span class="span">.</span></a>
+          <a href="" class="logo">DocePaladar<span class="span">.</span></a>
 
           <p class="footer-text">
             Financial experts support or help you to to find out which way you can raise your funds more.
@@ -1261,36 +1264,30 @@
   
 
   </footer>
-           
+
+  
+  
+  
+  
 
 
 
 
 
+  <!-- 
+    - #BACK TO TOP
+  -->
 
-
-
-
-
-<!-- 
-  - #BACK TO TOP
--->
-
-<a href="#top" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
-  <ion-icon name="chevron-up"></ion-icon>
-</a>
-    <div class="footer-bottom">
-      <div class="container">
-        <p class="copyright-text">
-          &copy; Desenvolvido por MQJogos 2023.
-        </p>
-      </div>
-    </div>    
-    <script src="./src/js/script.js"></script>   
-  </body> 
-  </html>
-
-
-                  
-               
-
+  <a href="#top" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
+    <ion-icon name="chevron-up"></ion-icon>
+  </a>
+      <div class="footer-bottom">
+        <div class="container">
+          <p class="copyright-text">
+            &copy; Desenvolvido por MQJogos 2023.
+          </p>
+        </div>
+      </div>    
+      <script src="./src/js/script.js"></script>   
+    </body> 
+    </html>
